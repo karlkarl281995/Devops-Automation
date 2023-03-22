@@ -1,0 +1,577 @@
+Xsession: X session started for karlavalcourtgm at Thu Mar 16 16:08:12 UTC 2023
+dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1002/bus
+dbus-update-activation-environment: setting DISPLAY=:10.0
+localuser:karlavalcourtgm being added to access control list
+dbus-update-activation-environment: setting QT_ACCESSIBILITY=1
+dbus-update-activation-environment: setting USER=karlavalcourtgm
+dbus-update-activation-environment: setting XDG_SESSION_TYPE=x11
+dbus-update-activation-environment: setting HOME=/home/karlavalcourtgm
+dbus-update-activation-environment: setting XRDP_PULSE_SINK_SOCKET=xrdp_chansrv_audio_out_socket_10
+dbus-update-activation-environment: setting XRDP_PULSE_SOURCE_SOCKET=xrdp_chansrv_audio_in_socket_10
+dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1002/bus
+dbus-update-activation-environment: setting PULSE_SCRIPT=/etc/xrdp/pulse/default.pa
+dbus-update-activation-environment: setting IM_CONFIG_PHASE=1
+dbus-update-activation-environment: setting LOGNAME=karlavalcourtgm
+dbus-update-activation-environment: setting XDG_SESSION_CLASS=user
+dbus-update-activation-environment: setting PATH=/sbin:/bin:/usr/bin:/usr/local/bin:/snap/bin
+dbus-update-activation-environment: setting XRDP_SOCKET_PATH=/run/xrdp/sockdir
+dbus-update-activation-environment: setting XDG_RUNTIME_DIR=/run/user/1002
+dbus-update-activation-environment: setting DISPLAY=:10.0
+dbus-update-activation-environment: setting LANG=C.UTF-8
+dbus-update-activation-environment: setting UID=1002
+dbus-update-activation-environment: setting SHELL=/bin/bash
+dbus-update-activation-environment: setting QT_ACCESSIBILITY=1
+dbus-update-activation-environment: setting XRDP_SESSION=1
+dbus-update-activation-environment: setting GPG_AGENT_INFO=/run/user/1002/gnupg/S.gpg-agent:0:1
+dbus-update-activation-environment: setting PWD=/home/karlavalcourtgm
+dbus-update-activation-environment: setting XDG_DATA_DIRS=/usr/share/xfce4:/usr/local/share:/usr/share:/var/lib/snapd/desktop
+/bin/x-session-manager: X server already running on display :10.0
+/usr/bin/iceauth:  creating new authority file /run/user/1002/ICEauthority
+xfce4-session-Message: 16:08:16.315: SSH authentication agent is already running
+gpg-agent[4172]: WARNING: "--write-env-file" is an obsolete option - it has no effect
+gpg-agent: a gpg-agent is already running - not starting a new one
+
+(xfce4-session:4047): xfce4-session-WARNING **: 16:08:16.321: gpg-agent returned no PID in the variables
+
+(xfce4-session:4047): xfce4-session-WARNING **: 16:08:16.323: xfsm_manager_load_session: Something wrong with /home/karlavalcourtgm/.cache/sessions/xfce4-session-ip-172-31-75-233:10, Does it exist? Permissions issue?
+
+(xfwm4:4175): GLib-CRITICAL **: 16:08:16.489: g_str_has_prefix: assertion 'prefix != NULL' failed
+
+(xfwm4:4175): xfwm4-WARNING **: 16:08:17.252: Another compositing manager is running on screen 0
+
+(xfsettingsd:4185): GLib-CRITICAL **: 16:08:17.398: g_str_has_prefix: assertion 'prefix != NULL' failed
+
+(xfsettingsd:4185): GLib-GObject-CRITICAL **: 16:08:17.402: g_value_get_string: assertion 'G_VALUE_HOLDS_STRING (value)' failed
+
+(xfsettingsd:4185): GLib-GObject-CRITICAL **: 16:08:17.403: g_value_get_string: assertion 'G_VALUE_HOLDS_STRING (value)' failed
+xfce4-panel-Message: 16:08:19.081: Plugin "statusnotifier-7" was not found and has been removed from the configuration
+xfce4-panel-Message: 16:08:19.083: Plugin "power-manager-plugin-9" was not found and has been removed from the configuration
+
+** (light-locker:4241): ERROR **: 16:08:19.130: Environment variable XDG_SESSION_PATH not set. Is LightDM running?
+
+** (xiccd:4248): WARNING **: 16:08:19.139: EDID is empty
+
+** (xiccd:4248): CRITICAL **: 16:08:19.155: failed to create colord device: failed to obtain org.freedesktop.color-manager.create-device auth
+
+(wrapper-2.0:4245): GLib-GIO-CRITICAL **: 16:08:19.348: g_file_new_for_path: assertion 'path != NULL' failed
+
+(wrapper-2.0:4245): GLib-GIO-CRITICAL **: 16:08:19.348: g_file_monitor_file: assertion 'G_IS_FILE (file)' failed
+
+(wrapper-2.0:4245): GLib-GObject-WARNING **: 16:08:19.348: invalid (NULL) pointer instance
+
+(wrapper-2.0:4245): GLib-GObject-CRITICAL **: 16:08:19.348: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(wrapper-2.0:4245): Gtk-WARNING **: 16:08:19.348: Attempting to add a widget with type GtkToggleButton to a container of type XfcePanelPlugin, but the widget is already inside a container of type XfcePanelPlugin, please remove the widget from its existing container first.
+
+(wrapper-2.0:4245): Gtk-WARNING **: 16:08:19.393: Negative content width -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner GtkToggleButton)
+
+** (wrapper-2.0:4243): WARNING **: 16:08:19.625: Binding 'XF86AudioLowerVolume' failed!
+
+(wrapper-2.0:4243): pulseaudio-plugin-WARNING **: 16:08:19.625: Could not have grabbed volume control keys. Is another volume control application (xfce4-volumed) running?
+
+** (wrapper-2.0:4243): WARNING **: 16:08:19.625: Binding 'XF86AudioPlay' failed!
+
+(wrapper-2.0:4243): pulseaudio-plugin-WARNING **: 16:08:19.625: Could not have grabbed multimedia control keys.
+
+(nm-applet:4238): Gdk-CRITICAL **: 16:08:19.630: gdk_window_thaw_toplevel_updates: assertion 'window->update_and_descendants_freeze_count > 0' failed
+
+(wrapper-2.0:4273): Gtk-WARNING **: 16:08:19.631: Negative content width -1 (allocation 1, extents 1x1) while allocating gadget (node button, owner XfceArrowButton)
+
+(wrapper-2.0:4243): Gtk-WARNING **: 16:08:19.787: Negative content width -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner PulseaudioButton)
+
+(xfdesktop:4201): GLib-CRITICAL **: 16:08:54.781: g_variant_new_string: assertion 'string != NULL' failed
+Working directory "/home/karlavalcourtgm/[Invalid UTF-8]" does not exist. It won't be used when spawning "/opt/eclipse/eclipse".
+(xfdesktop:4201): GLib-CRITICAL **: 16:08:57.237: g_variant_new_string: assertion 'string != NULL' failed
+Working directory "/home/karlavalcourtgm/[Invalid UTF-8]" does not exist. It won't be used when spawning "/opt/eclipse/eclipse".[Fatal Error] :1:1: Premature end of file.
+org.eclipse.m2e.logback.configuration: Activated before the state location was initialized. Retry after the state location is initialized.
+org.eclipse.m2e.logback.configuration: Activated before the state location was initialized. Retry after the state location is initialized.
+
+(xfce4-session:4047): xfce4-session-CRITICAL **: 16:09:25.086: error exporting interface: An object is already exported for the interface org.xfce.Session.Client at /org/xfce/SessionClients/org_eclipse_swt_Application
+Gdk-Message: 17:40:42.908: xfwm4: Fatal IO error 4 (Interrupted system call) on X server :10.0.
+
+Gdk-Message: 17:40:42.941: xfdesktop: Fatal IO error 11 (Resource temporarily unavailable) on X server :10.0.
+
+Gdk-Message: 17:40:42.950: Eclipse: Fatal IO error 11 (Resource temporarily unavailable) on X server :10.0.
+
+Gdk-Message: 17:40:42.953: Eclipse: Fatal IO error 11 (Resource temporarily unavailable) on X server :10.0.
+
+Xsession: X session started for karlavalcourtgm at Sat Mar 18 05:05:58 UTC 2023
+dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1002/bus
+dbus-update-activation-environment: setting DISPLAY=:10.0
+localuser:karlavalcourtgm being added to access control list
+dbus-update-activation-environment: setting QT_ACCESSIBILITY=1
+dbus-update-activation-environment: setting USER=karlavalcourtgm
+dbus-update-activation-environment: setting XDG_SESSION_TYPE=x11
+dbus-update-activation-environment: setting HOME=/home/karlavalcourtgm
+dbus-update-activation-environment: setting XRDP_PULSE_SINK_SOCKET=xrdp_chansrv_audio_out_socket_10
+dbus-update-activation-environment: setting XRDP_PULSE_SOURCE_SOCKET=xrdp_chansrv_audio_in_socket_10
+dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1002/bus
+dbus-update-activation-environment: setting PULSE_SCRIPT=/etc/xrdp/pulse/default.pa
+dbus-update-activation-environment: setting IM_CONFIG_PHASE=1
+dbus-update-activation-environment: setting LOGNAME=karlavalcourtgm
+dbus-update-activation-environment: setting XDG_SESSION_CLASS=user
+dbus-update-activation-environment: setting PATH=/sbin:/bin:/usr/bin:/usr/local/bin:/snap/bin
+dbus-update-activation-environment: setting XRDP_SOCKET_PATH=/run/xrdp/sockdir
+dbus-update-activation-environment: setting XDG_RUNTIME_DIR=/run/user/1002
+dbus-update-activation-environment: setting DISPLAY=:10.0
+dbus-update-activation-environment: setting LANG=C.UTF-8
+dbus-update-activation-environment: setting UID=1002
+dbus-update-activation-environment: setting SHELL=/bin/bash
+dbus-update-activation-environment: setting QT_ACCESSIBILITY=1
+dbus-update-activation-environment: setting XRDP_SESSION=1
+dbus-update-activation-environment: setting GPG_AGENT_INFO=/run/user/1002/gnupg/S.gpg-agent:0:1
+dbus-update-activation-environment: setting PWD=/home/karlavalcourtgm
+dbus-update-activation-environment: setting XDG_DATA_DIRS=/usr/share/xfce4:/usr/local/share:/usr/share:/var/lib/snapd/desktop
+/bin/x-session-manager: X server already running on display :10.0
+/usr/bin/iceauth:  creating new authority file /run/user/1002/ICEauthority
+xfce4-session-Message: 05:05:59.014: SSH authentication agent is already running
+gpg-agent[2147]: WARNING: "--write-env-file" is an obsolete option - it has no effect
+gpg-agent: a gpg-agent is already running - not starting a new one
+
+(xfce4-session:2022): xfce4-session-WARNING **: 05:05:59.020: gpg-agent returned no PID in the variables
+
+(xfce4-session:2022): xfce4-session-WARNING **: 05:05:59.021: xfsm_manager_load_session: Something wrong with /home/karlavalcourtgm/.cache/sessions/xfce4-session-ip-172-31-75-233:10, Does it exist? Permissions issue?
+
+(xfwm4:2150): xfwm4-WARNING **: 05:05:59.222: Unsupported GL renderer (llvmpipe (LLVM 12.0.0, 256 bits)).
+
+(wrapper-2.0:2197): GLib-GIO-CRITICAL **: 05:05:59.885: g_file_new_for_path: assertion 'path != NULL' failed
+
+(wrapper-2.0:2197): GLib-GIO-CRITICAL **: 05:05:59.885: g_file_monitor_file: assertion 'G_IS_FILE (file)' failed
+
+(wrapper-2.0:2197): GLib-GObject-WARNING **: 05:05:59.885: invalid (NULL) pointer instance
+
+(wrapper-2.0:2197): GLib-GObject-CRITICAL **: 05:05:59.885: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(wrapper-2.0:2197): Gtk-WARNING **: 05:05:59.885: Attempting to add a widget with type GtkToggleButton to a container of type XfcePanelPlugin, but the widget is already inside a container of type XfcePanelPlugin, please remove the widget from its existing container first.
+
+** (wrapper-2.0:2196): WARNING **: 05:05:59.904: Binding 'XF86AudioLowerVolume' failed!
+
+(wrapper-2.0:2196): pulseaudio-plugin-WARNING **: 05:05:59.904: Could not have grabbed volume control keys. Is another volume control application (xfce4-volumed) running?
+
+** (wrapper-2.0:2196): WARNING **: 05:05:59.904: Binding 'XF86AudioPlay' failed!
+
+(wrapper-2.0:2196): pulseaudio-plugin-WARNING **: 05:05:59.904: Could not have grabbed multimedia control keys.
+
+(wrapper-2.0:2197): Gtk-WARNING **: 05:05:59.942: Negative content width -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner GtkToggleButton)
+
+** (light-locker:2233): ERROR **: 05:05:59.969: Environment variable XDG_SESSION_PATH not set. Is LightDM running?
+
+** (xiccd:2238): WARNING **: 05:05:59.985: EDID is empty
+
+** (xiccd:2238): CRITICAL **: 05:06:00.015: failed to create colord device: failed to obtain org.freedesktop.color-manager.create-device auth
+
+(wrapper-2.0:2198): Gtk-WARNING **: 05:06:00.018: Negative content width -1 (allocation 1, extents 1x1) while allocating gadget (node button, owner XfceArrowButton)
+
+(wrapper-2.0:2196): Gtk-WARNING **: 05:06:00.047: Negative content width -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner PulseaudioButton)
+
+(nm-applet:2227): Gdk-CRITICAL **: 05:06:00.323: gdk_window_thaw_toplevel_updates: assertion 'window->update_and_descendants_freeze_count > 0' failed
+[2832:2832:0318/051147.208064:ERROR:process_singleton_posix.cc(340)] Failed to create /home/karlavalcourtgm/.config/google-chrome/SingletonLock: File exists (17)
+libva error: vaGetDriverNameByIndex() failed with unknown libva error, driver_name = (null)
+libva error: vaGetDriverNameByIndex() failed with unknown libva error, driver_name = (null)
+[2916:2916:0318/051147.339189:ERROR:viz_main_impl.cc(161)] Exiting GPU process due to errors during initialization
+[2917:2917:0318/051147.339189:ERROR:viz_main_impl.cc(161)] Exiting GPU process due to errors during initialization
+libva error: vaGetDriverNameByIndex() failed with unknown libva error, driver_name = (null)
+[2977:2977:0318/051147.551460:ERROR:viz_main_impl.cc(161)] Exiting GPU process due to errors during initialization
+libva error: vaGetDriverNameByIndex() failed with unknown libva error, driver_name = (null)
+[3059:3059:0318/051147.687468:ERROR:sandbox_linux.cc(376)] InitializeSandbox() called with multiple threads in process gpu-process.
+Opening in existing browser session.
+[2843:2966:0318/051203.534911:ERROR:chrome_browser_main_extra_parts_metrics.cc(226)] crbug.com/1216328: Checking Bluetooth availability started. Please report if there is no report that this ends.
+[2843:2966:0318/051203.534931:ERROR:chrome_browser_main_extra_parts_metrics.cc(229)] crbug.com/1216328: Checking Bluetooth availability ended.
+[2843:2966:0318/051203.534937:ERROR:chrome_browser_main_extra_parts_metrics.cc(232)] crbug.com/1216328: Checking default browser status started. Please report if there is no report that this ends.
+[2843:2966:0318/051203.555993:ERROR:chrome_browser_main_extra_parts_metrics.cc(236)] crbug.com/1216328: Checking default browser status ended.
+[3059:3059:0318/051215.105718:ERROR:gl_utils.cc(318)] [.WebGL-0x1efc00c3ce00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels
+Gdk-Message: 08:10:06.405: xfdesktop: Fatal IO error 11 (Resource temporarily unavailable) on X server :10.0.
+
+Gdk-Message: 08:10:06.418: xfwm4: Fatal IO error 11 (Resource temporarily unavailable) on X server :10.0.
+
+Xsession: X session started for karlavalcourtgm at Mon Mar 20 07:09:15 UTC 2023
+dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1002/bus
+dbus-update-activation-environment: setting DISPLAY=:10.0
+localuser:karlavalcourtgm being added to access control list
+dbus-update-activation-environment: setting QT_ACCESSIBILITY=1
+dbus-update-activation-environment: setting USER=karlavalcourtgm
+dbus-update-activation-environment: setting XDG_SESSION_TYPE=x11
+dbus-update-activation-environment: setting HOME=/home/karlavalcourtgm
+dbus-update-activation-environment: setting XRDP_PULSE_SINK_SOCKET=xrdp_chansrv_audio_out_socket_10
+dbus-update-activation-environment: setting XRDP_PULSE_SOURCE_SOCKET=xrdp_chansrv_audio_in_socket_10
+dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1002/bus
+dbus-update-activation-environment: setting PULSE_SCRIPT=/etc/xrdp/pulse/default.pa
+dbus-update-activation-environment: setting IM_CONFIG_PHASE=1
+dbus-update-activation-environment: setting LOGNAME=karlavalcourtgm
+dbus-update-activation-environment: setting XDG_SESSION_CLASS=user
+dbus-update-activation-environment: setting PATH=/sbin:/bin:/usr/bin:/usr/local/bin:/snap/bin
+dbus-update-activation-environment: setting XRDP_SOCKET_PATH=/run/xrdp/sockdir
+dbus-update-activation-environment: setting XDG_RUNTIME_DIR=/run/user/1002
+dbus-update-activation-environment: setting DISPLAY=:10.0
+dbus-update-activation-environment: setting LANG=C.UTF-8
+dbus-update-activation-environment: setting UID=1002
+dbus-update-activation-environment: setting SHELL=/bin/bash
+dbus-update-activation-environment: setting QT_ACCESSIBILITY=1
+dbus-update-activation-environment: setting XRDP_SESSION=1
+dbus-update-activation-environment: setting GPG_AGENT_INFO=/run/user/1002/gnupg/S.gpg-agent:0:1
+dbus-update-activation-environment: setting PWD=/home/karlavalcourtgm
+dbus-update-activation-environment: setting XDG_DATA_DIRS=/usr/share/xfce4:/usr/local/share:/usr/share:/var/lib/snapd/desktop
+/bin/x-session-manager: X server already running on display :10.0
+/usr/bin/iceauth:  creating new authority file /run/user/1002/ICEauthority
+xfce4-session-Message: 07:09:15.715: SSH authentication agent is already running
+gpg-agent[2021]: WARNING: "--write-env-file" is an obsolete option - it has no effect
+gpg-agent: a gpg-agent is already running - not starting a new one
+
+(xfce4-session:1896): xfce4-session-WARNING **: 07:09:15.720: gpg-agent returned no PID in the variables
+
+(xfce4-session:1896): xfce4-session-WARNING **: 07:09:15.722: xfsm_manager_load_session: Something wrong with /home/karlavalcourtgm/.cache/sessions/xfce4-session-ip-172-31-75-233:10, Does it exist? Permissions issue?
+
+(xfwm4:2024): xfwm4-WARNING **: 07:09:15.928: Unsupported GL renderer (llvmpipe (LLVM 12.0.0, 256 bits)).
+
+** (wrapper-2.0:2062): WARNING **: 07:09:16.352: Binding 'XF86AudioLowerVolume' failed!
+
+(wrapper-2.0:2062): pulseaudio-plugin-WARNING **: 07:09:16.352: Could not have grabbed volume control keys. Is another volume control application (xfce4-volumed) running?
+
+** (wrapper-2.0:2062): WARNING **: 07:09:16.353: Binding 'XF86AudioPlay' failed!
+
+(wrapper-2.0:2062): pulseaudio-plugin-WARNING **: 07:09:16.353: Could not have grabbed multimedia control keys.
+
+(wrapper-2.0:2063): GLib-GIO-CRITICAL **: 07:09:16.353: g_file_new_for_path: assertion 'path != NULL' failed
+
+(wrapper-2.0:2063): GLib-GIO-CRITICAL **: 07:09:16.353: g_file_monitor_file: assertion 'G_IS_FILE (file)' failed
+
+(wrapper-2.0:2063): GLib-GObject-WARNING **: 07:09:16.353: invalid (NULL) pointer instance
+
+(wrapper-2.0:2063): GLib-GObject-CRITICAL **: 07:09:16.353: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(wrapper-2.0:2063): Gtk-WARNING **: 07:09:16.353: Attempting to add a widget with type GtkToggleButton to a container of type XfcePanelPlugin, but the widget is already inside a container of type XfcePanelPlugin, please remove the widget from its existing container first.
+
+(wrapper-2.0:2063): Gtk-WARNING **: 07:09:16.388: Negative content width -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner GtkToggleButton)
+
+** (light-locker:2110): ERROR **: 07:09:16.475: Environment variable XDG_SESSION_PATH not set. Is LightDM running?
+
+** (xiccd:2116): WARNING **: 07:09:16.478: EDID is empty
+
+(wrapper-2.0:2062): Gtk-WARNING **: 07:09:16.483: Negative content width -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner PulseaudioButton)
+
+** (xiccd:2116): CRITICAL **: 07:09:16.490: failed to create colord device: failed to obtain org.freedesktop.color-manager.create-device auth
+
+(wrapper-2.0:2064): Gtk-WARNING **: 07:09:16.491: Negative content width -1 (allocation 1, extents 1x1) while allocating gadget (node button, owner XfceArrowButton)
+
+(nm-applet:2104): Gdk-CRITICAL **: 07:09:16.808: gdk_window_thaw_toplevel_updates: assertion 'window->update_and_descendants_freeze_count > 0' failed
+
+** (xiccd:2116): WARNING **: 07:16:17.003: EDID is empty
+libva error: vaGetDriverNameByIndex() failed with unknown libva error, driver_name = (null)
+[3647:3647:0320/072305.691149:ERROR:viz_main_impl.cc(161)] Exiting GPU process due to errors during initialization
+libva error: vaGetDriverNameByIndex() failed with unknown libva error, driver_name = (null)
+[3722:3722:0320/072306.052099:ERROR:viz_main_impl.cc(161)] Exiting GPU process due to errors during initialization
+libva error: vaGetDriverNameByIndex() failed with unknown libva error, driver_name = (null)
+[3743:3743:0320/072306.200541:ERROR:viz_main_impl.cc(161)] Exiting GPU process due to errors during initialization
+libva error: vaGetDriverNameByIndex() failed with unknown libva error, driver_name = (null)
+[3763:3763:0320/072306.283859:ERROR:sandbox_linux.cc(376)] InitializeSandbox() called with multiple threads in process gpu-process.
+[3607:3662:0320/072308.947214:ERROR:chrome_browser_main_extra_parts_metrics.cc(226)] crbug.com/1216328: Checking Bluetooth availability started. Please report if there is no report that this ends.
+[3607:3662:0320/072308.947236:ERROR:chrome_browser_main_extra_parts_metrics.cc(229)] crbug.com/1216328: Checking Bluetooth availability ended.
+[3607:3662:0320/072308.947243:ERROR:chrome_browser_main_extra_parts_metrics.cc(232)] crbug.com/1216328: Checking default browser status started. Please report if there is no report that this ends.
+[3607:3662:0320/072308.961735:ERROR:chrome_browser_main_extra_parts_metrics.cc(236)] crbug.com/1216328: Checking default browser status ended.
+
+** (xiccd:2116): WARNING **: 07:37:11.026: EDID is empty
+
+** (xiccd:2116): WARNING **: 08:16:57.196: EDID is empty
+[3607:3607:0320/083116.842217:ERROR:interface_endpoint_client.cc(658)] Message 0 rejected by interface blink.mojom.WidgetHost
+
+** (xiccd:2116): WARNING **: 08:31:30.038: EDID is empty
+
+** (xiccd:2116): WARNING **: 08:39:21.314: EDID is empty
+Fontconfig error: Cannot load default config file: No such file: (null)
+
+** (xiccd:2116): WARNING **: 09:18:35.257: EDID is empty
+Gdk-Message: 10:49:56.886: xfdesktop: Fatal IO error 11 (Resource temporarily unavailable) on X server :10.0.
+
+Gdk-Message: 10:49:56.916: xfwm4: Fatal IO error 11 (Resource temporarily unavailable) on X server :10.0.
+
+Xsession: X session started for karlavalcourtgm at Tue Mar 21 08:58:14 UTC 2023
+dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1002/bus
+dbus-update-activation-environment: setting DISPLAY=:10.0
+localuser:karlavalcourtgm being added to access control list
+dbus-update-activation-environment: setting QT_ACCESSIBILITY=1
+dbus-update-activation-environment: setting USER=karlavalcourtgm
+dbus-update-activation-environment: setting XDG_SESSION_TYPE=x11
+dbus-update-activation-environment: setting HOME=/home/karlavalcourtgm
+dbus-update-activation-environment: setting XRDP_PULSE_SINK_SOCKET=xrdp_chansrv_audio_out_socket_10
+dbus-update-activation-environment: setting XRDP_PULSE_SOURCE_SOCKET=xrdp_chansrv_audio_in_socket_10
+dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1002/bus
+dbus-update-activation-environment: setting PULSE_SCRIPT=/etc/xrdp/pulse/default.pa
+dbus-update-activation-environment: setting IM_CONFIG_PHASE=1
+dbus-update-activation-environment: setting LOGNAME=karlavalcourtgm
+dbus-update-activation-environment: setting XDG_SESSION_CLASS=user
+dbus-update-activation-environment: setting PATH=/sbin:/bin:/usr/bin:/usr/local/bin:/snap/bin
+dbus-update-activation-environment: setting XRDP_SOCKET_PATH=/run/xrdp/sockdir
+dbus-update-activation-environment: setting XDG_RUNTIME_DIR=/run/user/1002
+dbus-update-activation-environment: setting DISPLAY=:10.0
+dbus-update-activation-environment: setting LANG=C.UTF-8
+dbus-update-activation-environment: setting UID=1002
+dbus-update-activation-environment: setting SHELL=/bin/bash
+dbus-update-activation-environment: setting QT_ACCESSIBILITY=1
+dbus-update-activation-environment: setting XRDP_SESSION=1
+dbus-update-activation-environment: setting GPG_AGENT_INFO=/run/user/1002/gnupg/S.gpg-agent:0:1
+dbus-update-activation-environment: setting PWD=/home/karlavalcourtgm
+dbus-update-activation-environment: setting XDG_DATA_DIRS=/usr/share/xfce4:/usr/local/share:/usr/share:/var/lib/snapd/desktop
+/bin/x-session-manager: X server already running on display :10.0
+/usr/bin/iceauth:  creating new authority file /run/user/1002/ICEauthority
+xfce4-session-Message: 08:58:14.444: SSH authentication agent is already running
+gpg-agent[2270]: WARNING: "--write-env-file" is an obsolete option - it has no effect
+gpg-agent: a gpg-agent is already running - not starting a new one
+
+(xfce4-session:2137): xfce4-session-WARNING **: 08:58:14.450: gpg-agent returned no PID in the variables
+
+(xfce4-session:2137): xfce4-session-WARNING **: 08:58:14.453: xfsm_manager_load_session: Something wrong with /home/karlavalcourtgm/.cache/sessions/xfce4-session-ip-172-31-75-233:10, Does it exist? Permissions issue?
+
+(xfwm4:2273): xfwm4-WARNING **: 08:58:14.666: Unsupported GL renderer (llvmpipe (LLVM 12.0.0, 256 bits)).
+
+(wrapper-2.0:2312): GLib-GIO-CRITICAL **: 08:58:15.086: g_file_new_for_path: assertion 'path != NULL' failed
+
+(wrapper-2.0:2312): GLib-GIO-CRITICAL **: 08:58:15.086: g_file_monitor_file: assertion 'G_IS_FILE (file)' failed
+
+(wrapper-2.0:2312): GLib-GObject-WARNING **: 08:58:15.086: invalid (NULL) pointer instance
+
+(wrapper-2.0:2312): GLib-GObject-CRITICAL **: 08:58:15.086: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(wrapper-2.0:2312): Gtk-WARNING **: 08:58:15.087: Attempting to add a widget with type GtkToggleButton to a container of type XfcePanelPlugin, but the widget is already inside a container of type XfcePanelPlugin, please remove the widget from its existing container first.
+
+** (wrapper-2.0:2311): WARNING **: 08:58:15.096: Binding 'XF86AudioLowerVolume' failed!
+
+(wrapper-2.0:2311): pulseaudio-plugin-WARNING **: 08:58:15.096: Could not have grabbed volume control keys. Is another volume control application (xfce4-volumed) running?
+
+** (wrapper-2.0:2311): WARNING **: 08:58:15.096: Binding 'XF86AudioPlay' failed!
+
+(wrapper-2.0:2311): pulseaudio-plugin-WARNING **: 08:58:15.096: Could not have grabbed multimedia control keys.
+
+(wrapper-2.0:2312): Gtk-WARNING **: 08:58:15.136: Negative content width -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner GtkToggleButton)
+
+** (light-locker:2360): ERROR **: 08:58:15.211: Environment variable XDG_SESSION_PATH not set. Is LightDM running?
+
+** (xiccd:2363): WARNING **: 08:58:15.230: EDID is empty
+
+(wrapper-2.0:2313): Gtk-WARNING **: 08:58:15.253: Negative content width -1 (allocation 1, extents 1x1) while allocating gadget (node button, owner XfceArrowButton)
+
+** (xiccd:2363): CRITICAL **: 08:58:15.264: failed to create colord device: failed to obtain org.freedesktop.color-manager.create-device auth
+
+(wrapper-2.0:2311): Gtk-WARNING **: 08:58:15.309: Negative content width -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner PulseaudioButton)
+
+(nm-applet:2351): Gdk-CRITICAL **: 08:58:15.538: gdk_window_thaw_toplevel_updates: assertion 'window->update_and_descendants_freeze_count > 0' failed
+libva error: vaGetDriverNameByIndex() failed with unknown libva error, driver_name = (null)
+[2526:2526:0321/085818.624428:ERROR:viz_main_impl.cc(161)] Exiting GPU process due to errors during initialization
+libva error: vaGetDriverNameByIndex() failed with unknown libva error, driver_name = (null)
+[2602:2602:0321/085818.947027:ERROR:viz_main_impl.cc(161)] Exiting GPU process due to errors during initialization
+libva error: vaGetDriverNameByIndex() failed with unknown libva error, driver_name = (null)
+[2622:2622:0321/085819.031663:ERROR:sandbox_linux.cc(376)] InitializeSandbox() called with multiple threads in process gpu-process.
+[2485:2515:0321/085821.869969:ERROR:chrome_browser_main_extra_parts_metrics.cc(226)] crbug.com/1216328: Checking Bluetooth availability started. Please report if there is no report that this ends.
+[2485:2515:0321/085821.870136:ERROR:chrome_browser_main_extra_parts_metrics.cc(229)] crbug.com/1216328: Checking Bluetooth availability ended.
+[2485:2515:0321/085821.870152:ERROR:chrome_browser_main_extra_parts_metrics.cc(232)] crbug.com/1216328: Checking default browser status started. Please report if there is no report that this ends.
+[2485:2515:0321/085821.882877:ERROR:chrome_browser_main_extra_parts_metrics.cc(236)] crbug.com/1216328: Checking default browser status ended.
+
+** (xiccd:2363): WARNING **: 09:04:00.274: EDID is empty
+
+** (xiccd:2363): WARNING **: 09:05:05.991: EDID is empty
+libva error: vaGetDriverNameByIndex() failed with unknown libva error, driver_name = (null)
+[3372:3372:0321/090507.710666:ERROR:viz_main_impl.cc(161)] Exiting GPU process due to errors during initialization
+libva error: vaGetDriverNameByIndex() failed with unknown libva error, driver_name = (null)
+[3448:3448:0321/090507.939176:ERROR:viz_main_impl.cc(161)] Exiting GPU process due to errors during initialization
+libva error: vaGetDriverNameByIndex() failed with unknown libva error, driver_name = (null)
+[3468:3468:0321/090507.998631:ERROR:sandbox_linux.cc(376)] InitializeSandbox() called with multiple threads in process gpu-process.
+[3418:8:0321/090508.021893:ERROR:command_buffer_proxy_impl.cc(125)] ContextResult::kTransientFailure: Failed to send GpuControl.CreateCommandBuffer.
+[3330:3394:0321/090510.827569:ERROR:chrome_browser_main_extra_parts_metrics.cc(226)] crbug.com/1216328: Checking Bluetooth availability started. Please report if there is no report that this ends.
+[3330:3394:0321/090510.827592:ERROR:chrome_browser_main_extra_parts_metrics.cc(229)] crbug.com/1216328: Checking Bluetooth availability ended.
+[3330:3394:0321/090510.827599:ERROR:chrome_browser_main_extra_parts_metrics.cc(232)] crbug.com/1216328: Checking default browser status started. Please report if there is no report that this ends.
+[3330:3394:0321/090510.843542:ERROR:chrome_browser_main_extra_parts_metrics.cc(236)] crbug.com/1216328: Checking default browser status ended.
+Gdk-Message: 09:25:44.095: xfwm4: Fatal IO error 4 (Interrupted system call) on X server :10.0.
+
+Gdk-Message: 09:25:44.109: xfdesktop: Fatal IO error 11 (Resource temporarily unavailable) on X server :10.0.
+
+Xsession: X session started for karlavalcourtgm at Wed Mar 22 12:40:31 UTC 2023
+dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1002/bus
+dbus-update-activation-environment: setting DISPLAY=:10.0
+localuser:karlavalcourtgm being added to access control list
+dbus-update-activation-environment: setting QT_ACCESSIBILITY=1
+dbus-update-activation-environment: setting USER=karlavalcourtgm
+dbus-update-activation-environment: setting XDG_SESSION_TYPE=x11
+dbus-update-activation-environment: setting HOME=/home/karlavalcourtgm
+dbus-update-activation-environment: setting XRDP_PULSE_SINK_SOCKET=xrdp_chansrv_audio_out_socket_10
+dbus-update-activation-environment: setting XRDP_PULSE_SOURCE_SOCKET=xrdp_chansrv_audio_in_socket_10
+dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1002/bus
+dbus-update-activation-environment: setting PULSE_SCRIPT=/etc/xrdp/pulse/default.pa
+dbus-update-activation-environment: setting IM_CONFIG_PHASE=1
+dbus-update-activation-environment: setting LOGNAME=karlavalcourtgm
+dbus-update-activation-environment: setting XDG_SESSION_CLASS=user
+dbus-update-activation-environment: setting PATH=/sbin:/bin:/usr/bin:/usr/local/bin:/snap/bin
+dbus-update-activation-environment: setting XRDP_SOCKET_PATH=/run/xrdp/sockdir
+dbus-update-activation-environment: setting XDG_RUNTIME_DIR=/run/user/1002
+dbus-update-activation-environment: setting DISPLAY=:10.0
+dbus-update-activation-environment: setting LANG=C.UTF-8
+dbus-update-activation-environment: setting UID=1002
+dbus-update-activation-environment: setting SHELL=/bin/bash
+dbus-update-activation-environment: setting QT_ACCESSIBILITY=1
+dbus-update-activation-environment: setting XRDP_SESSION=1
+dbus-update-activation-environment: setting GPG_AGENT_INFO=/run/user/1002/gnupg/S.gpg-agent:0:1
+dbus-update-activation-environment: setting PWD=/home/karlavalcourtgm
+dbus-update-activation-environment: setting XDG_DATA_DIRS=/usr/share/xfce4:/usr/local/share:/usr/share:/var/lib/snapd/desktop
+/bin/x-session-manager: X server already running on display :10.0
+/usr/bin/iceauth:  creating new authority file /run/user/1002/ICEauthority
+xfce4-session-Message: 12:40:32.252: SSH authentication agent is already running
+gpg-agent[2424]: WARNING: "--write-env-file" is an obsolete option - it has no effect
+gpg-agent: a gpg-agent is already running - not starting a new one
+
+(xfce4-session:2299): xfce4-session-WARNING **: 12:40:32.257: gpg-agent returned no PID in the variables
+
+(xfce4-session:2299): xfce4-session-WARNING **: 12:40:32.259: xfsm_manager_load_session: Something wrong with /home/karlavalcourtgm/.cache/sessions/xfce4-session-ip-172-31-75-233:10, Does it exist? Permissions issue?
+
+(xfwm4:2427): xfwm4-WARNING **: 12:40:32.479: Unsupported GL renderer (llvmpipe (LLVM 12.0.0, 256 bits)).
+
+(wrapper-2.0:2466): GLib-GIO-CRITICAL **: 12:40:32.906: g_file_new_for_path: assertion 'path != NULL' failed
+
+(wrapper-2.0:2466): GLib-GIO-CRITICAL **: 12:40:32.906: g_file_monitor_file: assertion 'G_IS_FILE (file)' failed
+
+(wrapper-2.0:2466): GLib-GObject-WARNING **: 12:40:32.906: invalid (NULL) pointer instance
+
+(wrapper-2.0:2466): GLib-GObject-CRITICAL **: 12:40:32.906: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(wrapper-2.0:2466): Gtk-WARNING **: 12:40:32.907: Attempting to add a widget with type GtkToggleButton to a container of type XfcePanelPlugin, but the widget is already inside a container of type XfcePanelPlugin, please remove the widget from its existing container first.
+
+** (wrapper-2.0:2465): WARNING **: 12:40:32.920: Binding 'XF86AudioLowerVolume' failed!
+
+(wrapper-2.0:2465): pulseaudio-plugin-WARNING **: 12:40:32.920: Could not have grabbed volume control keys. Is another volume control application (xfce4-volumed) running?
+
+** (wrapper-2.0:2465): WARNING **: 12:40:32.920: Binding 'XF86AudioPlay' failed!
+
+(wrapper-2.0:2465): pulseaudio-plugin-WARNING **: 12:40:32.920: Could not have grabbed multimedia control keys.
+
+(wrapper-2.0:2466): Gtk-WARNING **: 12:40:32.954: Negative content width -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner GtkToggleButton)
+
+** (light-locker:2507): ERROR **: 12:40:33.038: Environment variable XDG_SESSION_PATH not set. Is LightDM running?
+
+** (xiccd:2515): WARNING **: 12:40:33.045: EDID is empty
+
+** (xiccd:2515): CRITICAL **: 12:40:33.064: failed to create colord device: failed to obtain org.freedesktop.color-manager.create-device auth
+
+(wrapper-2.0:2465): Gtk-WARNING **: 12:40:33.070: Negative content width -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner PulseaudioButton)
+
+(wrapper-2.0:2467): Gtk-WARNING **: 12:40:33.071: Negative content width -1 (allocation 1, extents 1x1) while allocating gadget (node button, owner XfceArrowButton)
+
+(nm-applet:2502): Gdk-CRITICAL **: 12:40:33.405: gdk_window_thaw_toplevel_updates: assertion 'window->update_and_descendants_freeze_count > 0' failed
+libva error: vaGetDriverNameByIndex() failed with unknown libva error, driver_name = (null)
+[2692:2692:0322/124040.882618:ERROR:viz_main_impl.cc(161)] Exiting GPU process due to errors during initialization
+libva error: vaGetDriverNameByIndex() failed with unknown libva error, driver_name = (null)
+[2771:2771:0322/124041.248169:ERROR:viz_main_impl.cc(161)] Exiting GPU process due to errors during initialization
+libva error: vaGetDriverNameByIndex() failed with unknown libva error, driver_name = (null)
+[2792:2792:0322/124041.357114:ERROR:sandbox_linux.cc(376)] InitializeSandbox() called with multiple threads in process gpu-process.
+[2646:2730:0322/124044.166449:ERROR:chrome_browser_main_extra_parts_metrics.cc(226)] crbug.com/1216328: Checking Bluetooth availability started. Please report if there is no report that this ends.
+[2646:2730:0322/124044.166471:ERROR:chrome_browser_main_extra_parts_metrics.cc(229)] crbug.com/1216328: Checking Bluetooth availability ended.
+[2646:2730:0322/124044.166481:ERROR:chrome_browser_main_extra_parts_metrics.cc(232)] crbug.com/1216328: Checking default browser status started. Please report if there is no report that this ends.
+[2646:2730:0322/124044.178875:ERROR:chrome_browser_main_extra_parts_metrics.cc(236)] crbug.com/1216328: Checking default browser status ended.
+Gdk-Message: 14:25:42.848: xfwm4: Fatal IO error 4 (Interrupted system call) on X server :10.0.
+
+Gdk-Message: 14:25:42.908: xfdesktop: Fatal IO error 4 (Interrupted system call) on X server :10.0.
+
+Xsession: X session started for karlavalcourtgm at Wed Mar 22 19:33:30 UTC 2023
+dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1002/bus
+dbus-update-activation-environment: setting DISPLAY=:10.0
+localuser:karlavalcourtgm being added to access control list
+dbus-update-activation-environment: setting QT_ACCESSIBILITY=1
+dbus-update-activation-environment: setting USER=karlavalcourtgm
+dbus-update-activation-environment: setting XDG_SESSION_TYPE=x11
+dbus-update-activation-environment: setting HOME=/home/karlavalcourtgm
+dbus-update-activation-environment: setting XRDP_PULSE_SINK_SOCKET=xrdp_chansrv_audio_out_socket_10
+dbus-update-activation-environment: setting XRDP_PULSE_SOURCE_SOCKET=xrdp_chansrv_audio_in_socket_10
+dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1002/bus
+dbus-update-activation-environment: setting PULSE_SCRIPT=/etc/xrdp/pulse/default.pa
+dbus-update-activation-environment: setting IM_CONFIG_PHASE=1
+dbus-update-activation-environment: setting LOGNAME=karlavalcourtgm
+dbus-update-activation-environment: setting XDG_SESSION_CLASS=user
+dbus-update-activation-environment: setting PATH=/sbin:/bin:/usr/bin:/usr/local/bin:/snap/bin
+dbus-update-activation-environment: setting XRDP_SOCKET_PATH=/run/xrdp/sockdir
+dbus-update-activation-environment: setting XDG_RUNTIME_DIR=/run/user/1002
+dbus-update-activation-environment: setting DISPLAY=:10.0
+dbus-update-activation-environment: setting LANG=C.UTF-8
+dbus-update-activation-environment: setting UID=1002
+dbus-update-activation-environment: setting SHELL=/bin/bash
+dbus-update-activation-environment: setting QT_ACCESSIBILITY=1
+dbus-update-activation-environment: setting XRDP_SESSION=1
+dbus-update-activation-environment: setting GPG_AGENT_INFO=/run/user/1002/gnupg/S.gpg-agent:0:1
+dbus-update-activation-environment: setting PWD=/home/karlavalcourtgm
+dbus-update-activation-environment: setting XDG_DATA_DIRS=/usr/share/xfce4:/usr/local/share:/usr/share:/var/lib/snapd/desktop
+/bin/x-session-manager: X server already running on display :10.0
+/usr/bin/iceauth:  creating new authority file /run/user/1002/ICEauthority
+xfce4-session-Message: 19:33:30.759: SSH authentication agent is already running
+gpg-agent[2036]: WARNING: "--write-env-file" is an obsolete option - it has no effect
+gpg-agent: a gpg-agent is already running - not starting a new one
+
+(xfce4-session:1935): xfce4-session-WARNING **: 19:33:30.765: gpg-agent returned no PID in the variables
+
+(xfce4-session:1935): xfce4-session-WARNING **: 19:33:30.768: xfsm_manager_load_session: Something wrong with /home/karlavalcourtgm/.cache/sessions/xfce4-session-ip-172-31-75-233:10, Does it exist? Permissions issue?
+
+(xfwm4:2039): xfwm4-WARNING **: 19:33:30.998: Unsupported GL renderer (llvmpipe (LLVM 12.0.0, 256 bits)).
+
+(wrapper-2.0:2075): GLib-GIO-CRITICAL **: 19:33:31.383: g_file_new_for_path: assertion 'path != NULL' failed
+
+(wrapper-2.0:2075): GLib-GIO-CRITICAL **: 19:33:31.384: g_file_monitor_file: assertion 'G_IS_FILE (file)' failed
+
+(wrapper-2.0:2075): GLib-GObject-WARNING **: 19:33:31.384: invalid (NULL) pointer instance
+
+(wrapper-2.0:2075): GLib-GObject-CRITICAL **: 19:33:31.384: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(wrapper-2.0:2075): Gtk-WARNING **: 19:33:31.384: Attempting to add a widget with type GtkToggleButton to a container of type XfcePanelPlugin, but the widget is already inside a container of type XfcePanelPlugin, please remove the widget from its existing container first.
+
+** (wrapper-2.0:2074): WARNING **: 19:33:31.433: Binding 'XF86AudioLowerVolume' failed!
+
+(wrapper-2.0:2074): pulseaudio-plugin-WARNING **: 19:33:31.433: Could not have grabbed volume control keys. Is another volume control application (xfce4-volumed) running?
+
+** (wrapper-2.0:2074): WARNING **: 19:33:31.434: Binding 'XF86AudioPlay' failed!
+
+(wrapper-2.0:2074): pulseaudio-plugin-WARNING **: 19:33:31.434: Could not have grabbed multimedia control keys.
+
+(wrapper-2.0:2075): Gtk-WARNING **: 19:33:31.439: Negative content width -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner GtkToggleButton)
+
+** (xiccd:2129): WARNING **: 19:33:31.533: EDID is empty
+
+** (light-locker:2125): ERROR **: 19:33:31.535: Environment variable XDG_SESSION_PATH not set. Is LightDM running?
+
+** (xiccd:2129): CRITICAL **: 19:33:31.549: failed to create colord device: failed to obtain org.freedesktop.color-manager.create-device auth
+
+(wrapper-2.0:2076): Gtk-WARNING **: 19:33:31.569: Negative content width -1 (allocation 1, extents 1x1) while allocating gadget (node button, owner XfceArrowButton)
+
+(wrapper-2.0:2074): Gtk-WARNING **: 19:33:31.582: Negative content width -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner PulseaudioButton)
+
+(nm-applet:2108): Gdk-CRITICAL **: 19:33:31.850: gdk_window_thaw_toplevel_updates: assertion 'window->update_and_descendants_freeze_count > 0' failed
+
+(xfce4-panel:2059): xfce4-panel-CRITICAL **: 19:34:09.770: panel-window.c:2245 (panel_window_active_window_geometry_changed): expression 'WNCK_IS_WINDOW (active_window)' failed.
+
+(xfce4-panel:2059): xfce4-panel-CRITICAL **: 19:34:11.504: panel-window.c:2245 (panel_window_active_window_geometry_changed): expression 'WNCK_IS_WINDOW (active_window)' failed.
+libva error: vaGetDriverNameByIndex() failed with unknown libva error, driver_name = (null)
+[2365:2365:0322/193411.736740:ERROR:viz_main_impl.cc(161)] Exiting GPU process due to errors during initialization
+libva error: vaGetDriverNameByIndex() failed with unknown libva error, driver_name = (null)
+[2438:2438:0322/193412.119663:ERROR:viz_main_impl.cc(161)] Exiting GPU process due to errors during initialization
+libva error: vaGetDriverNameByIndex() failed with unknown libva error, driver_name = (null)
+[2455:2455:0322/193412.217497:ERROR:sandbox_linux.cc(376)] InitializeSandbox() called with multiple threads in process gpu-process.
+[2304:2398:0322/193415.003977:ERROR:chrome_browser_main_extra_parts_metrics.cc(226)] crbug.com/1216328: Checking Bluetooth availability started. Please report if there is no report that this ends.
+[2304:2398:0322/193415.004000:ERROR:chrome_browser_main_extra_parts_metrics.cc(229)] crbug.com/1216328: Checking Bluetooth availability ended.
+[2304:2398:0322/193415.004006:ERROR:chrome_browser_main_extra_parts_metrics.cc(232)] crbug.com/1216328: Checking default browser status started. Please report if there is no report that this ends.
+[2304:2398:0322/193415.019362:ERROR:chrome_browser_main_extra_parts_metrics.cc(236)] crbug.com/1216328: Checking default browser status ended.
+Fontconfig error: Cannot load default config file: No such file: (null)
+Opening in existing browser session.
+libva error: vaGetDriverNameByIndex() failed with unknown libva error, driver_name = (null)
+[2304:2304:0322/194346.207790:ERROR:interface_endpoint_client.cc(658)] Message 1 rejected by interface blink.mojom.WidgetHost
+
+** (xiccd:2129): WARNING **: 19:59:05.524: EDID is empty
+
+** (xiccd:2129): WARNING **: 19:59:05.541: EDID is empty
+
+** (xiccd:2129): WARNING **: 20:00:10.184: EDID is empty
+
+** (xiccd:2129): WARNING **: 20:37:02.154: EDID is empty
+Opening in existing browser session.
+libva error: vaGetDriverNameByIndex() failed with unknown libva error, driver_name = (null)
+libva error: vaGetDriverNameByIndex() failed with unknown libva error, driver_name = (null)
+[12055:12055:0322/212032.311211:ERROR:viz_main_impl.cc(161)] Exiting GPU process due to errors during initialization
+libva error: vaGetDriverNameByIndex() failed with unknown libva error, driver_name = (null)
+[12129:12129:0322/212032.507566:ERROR:viz_main_impl.cc(161)] Exiting GPU process due to errors during initialization
+libva error: vaGetDriverNameByIndex() failed with unknown libva error, driver_name = (null)
+[12146:12146:0322/212032.573167:ERROR:sandbox_linux.cc(376)] InitializeSandbox() called with multiple threads in process gpu-process.
+[12014:12040:0322/212035.380110:ERROR:chrome_browser_main_extra_parts_metrics.cc(226)] crbug.com/1216328: Checking Bluetooth availability started. Please report if there is no report that this ends.
+[12014:12040:0322/212035.380133:ERROR:chrome_browser_main_extra_parts_metrics.cc(229)] crbug.com/1216328: Checking Bluetooth availability ended.
+[12014:12040:0322/212035.380144:ERROR:chrome_browser_main_extra_parts_metrics.cc(232)] crbug.com/1216328: Checking default browser status started. Please report if there is no report that this ends.
+[12014:12040:0322/212035.394401:ERROR:chrome_browser_main_extra_parts_metrics.cc(236)] crbug.com/1216328: Checking default browser status ended.

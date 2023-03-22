@@ -1,0 +1,6 @@
+2023/03/22-19:34:11.670 3 Reusing MANIFEST /home/karlavalcourtgm/.config/google-chrome/Default/Local Storage/leveldb/MANIFEST-000001
+2023/03/22-19:34:11.676 3 Recovering log #6
+2023/03/22-19:34:11.678 3 Reusing old log /home/karlavalcourtgm/.config/google-chrome/Default/Local Storage/leveldb/000006.log 
+2023/03/22-19:45:46.448 8 Level-0 table #10: started
+2023/03/22-19:45:46.451 8 Level-0 table #10: 29270 bytes OK
+2023/03/22-19:45:46.453 8 Delete type=0 #6
